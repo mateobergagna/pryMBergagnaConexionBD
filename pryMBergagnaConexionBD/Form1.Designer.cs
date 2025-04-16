@@ -42,12 +42,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtCodigo = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.col1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.col2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.col3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.col4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.col5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.col6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.btnModificar = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -178,47 +172,10 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.col1,
-            this.col2,
-            this.col3,
-            this.col4,
-            this.col5,
-            this.col6});
             this.dataGridView1.Location = new System.Drawing.Point(116, 193);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(469, 216);
             this.dataGridView1.TabIndex = 8;
-            // 
-            // col1
-            // 
-            this.col1.HeaderText = "Codigo";
-            this.col1.Name = "col1";
-            // 
-            // col2
-            // 
-            this.col2.HeaderText = "Nombre";
-            this.col2.Name = "col2";
-            // 
-            // col3
-            // 
-            this.col3.HeaderText = "Descripción";
-            this.col3.Name = "col3";
-            // 
-            // col4
-            // 
-            this.col4.HeaderText = "Precio";
-            this.col4.Name = "col4";
-            // 
-            // col5
-            // 
-            this.col5.HeaderText = "Stock";
-            this.col5.Name = "col5";
-            // 
-            // col6
-            // 
-            this.col6.HeaderText = "Categorias";
-            this.col6.Name = "col6";
             // 
             // btnAgregar
             // 
@@ -285,12 +242,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtCodigo;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn col1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn col2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn col3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn col4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn col5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn col6;
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button btnModificar;
         private System.Windows.Forms.Button button3;

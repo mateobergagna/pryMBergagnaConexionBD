@@ -16,6 +16,7 @@ namespace pryMBergagnaConexionBD
             clsConexionBD objConexionBD = new clsConexionBD();
 
             objConexionBD.ConectarBD();
+            objConexionBD.Mostrar(dataGridView1);
         }
 
     }
