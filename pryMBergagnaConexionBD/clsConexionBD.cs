@@ -68,6 +68,5 @@ namespace pryGestionInventario
                 coneccionBaseDatos.Close();
             }
         }
-
     }
 }
